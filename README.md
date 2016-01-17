@@ -25,7 +25,9 @@ Run
 #### Complexity
 
 
-The complexity of iterate through all users and get emails, april_emails, unique_emails and domain_counts is O(n)
+The complexity of iterate through all users and get emails, april_emails, unique_emails and domain_counts is O(n).
+
+
 I use a dictionary that keep track of the count of unique domains, then a dict comprehension filter domains with count greater than 1 which is an algorithm with complexity O(m) where m is less or equal than n.
 
 
