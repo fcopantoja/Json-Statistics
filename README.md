@@ -1,6 +1,7 @@
 # Ordoro Code quiz
 
-Instructions to run program:
+#### Instructions
+
 
 Create virtualenv and activate it
 
@@ -8,7 +9,6 @@ Create virtualenv and activate it
 ***virtualenv --python=/path/to/python3 ordoro***
 
 ***source ordoro/bin/activate***
-
 
 
 Install python modules
@@ -19,6 +19,10 @@ Install python modules
 Run
 
 ***python ordoro_test.py***
+
+
+
+#### Complexity
 
 
 The complexity of iterate through all users and get emails, april_emails, unique_emails and domain_counts is O(n)
